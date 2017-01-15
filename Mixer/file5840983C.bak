@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -131,6 +131,7 @@ AR Path="/583C28BA/5840A4C0" Ref="U?"  Part="1"
 AR Path="/583FA42C/5840A4C0" Ref="U?"  Part="1" 
 AR Path="/583FB1BE/5840A4C0" Ref="U?"  Part="1" 
 AR Path="/583FB55C/5840A4C0" Ref="U?"  Part="1" 
+AR Path="/5840983D/5840A4C0" Ref="U?"  Part="1" 
 F 0 "U?" H 3750 2100 60  0000 C CNN
 F 1 "LM833N" H 3850 2400 60  0000 C CNN
 F 2 "" H 3550 2250 60  0001 C CNN
@@ -147,6 +148,7 @@ AR Path="/583C28BA/5840A4C7" Ref="U?"  Part="2"
 AR Path="/583FA42C/5840A4C7" Ref="U?"  Part="2" 
 AR Path="/583FB1BE/5840A4C7" Ref="U?"  Part="2" 
 AR Path="/583FB55C/5840A4C7" Ref="U?"  Part="2" 
+AR Path="/5840983D/5840A4C7" Ref="U?"  Part="2" 
 F 0 "U?" H 3750 4800 60  0000 C CNN
 F 1 "LM833N" H 3850 5100 60  0000 C CNN
 F 2 "" H 3550 4950 60  0001 C CNN
@@ -550,6 +552,7 @@ AR Path="/583C28BA/5840A5C0" Ref="U?"  Part="1"
 AR Path="/583FA42C/5840A5C0" Ref="U?"  Part="1" 
 AR Path="/583FB1BE/5840A5C0" Ref="U?"  Part="1" 
 AR Path="/583FB55C/5840A5C0" Ref="U?"  Part="1" 
+AR Path="/5840983D/5840A5C0" Ref="U?"  Part="1" 
 F 0 "U?" H 8800 2150 60  0000 C CNN
 F 1 "LM833N" H 8900 2450 60  0000 C CNN
 F 2 "" H 8600 2300 60  0001 C CNN
@@ -566,6 +569,7 @@ AR Path="/583C28BA/5840A5C7" Ref="U?"  Part="2"
 AR Path="/583FA42C/5840A5C7" Ref="U?"  Part="2" 
 AR Path="/583FB1BE/5840A5C7" Ref="U?"  Part="2" 
 AR Path="/583FB55C/5840A5C7" Ref="U?"  Part="2" 
+AR Path="/5840983D/5840A5C7" Ref="U?"  Part="2" 
 F 0 "U?" H 8850 4850 60  0000 C CNN
 F 1 "LM833N" H 8950 5150 60  0000 C CNN
 F 2 "" H 8650 5000 60  0001 C CNN

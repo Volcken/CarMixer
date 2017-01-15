@@ -1,34 +1,102 @@
-EESchema-LIBRARY Version 2.3
-#encoding utf-8
-#
-# LM3915N
-#
-DEF LM3915N U 0 40 Y Y 1 F N
-F0 "U" 0 -550 60 H V C CNN
-F1 "LM3915N" 0 550 60 H V C CNN
-F2 "" -100 300 60 V I C CNN
-F3 "" -100 300 60 V I C CNN
-DRAW
-S 300 500 -350 -500 0 1 0 f
-X 3dB 1 -550 400 200 R 50 50 1 1 I
-X GND 2 -550 300 200 R 50 50 1 1 I
-X V+ 3 -550 200 200 R 50 50 1 1 I
-X R_LO 4 -550 100 200 R 50 50 1 1 I
-X SIG 5 -550 0 200 R 50 50 1 1 I
-X R_HI 6 -550 -100 200 R 50 50 1 1 I
-X REF_OUT 7 -550 -200 200 R 50 50 1 1 I
-X REF_ADJ 8 -550 -300 200 R 50 50 1 1 I
-X MODE 9 -550 -400 200 R 50 50 1 1 I
-X 30dB 10 500 -400 200 L 50 50 1 1 I
-X 27dB 11 500 -300 200 L 50 50 1 1 I
-X 24dB 12 500 -200 200 L 50 50 1 1 I
-X 21dB 13 500 -100 200 L 50 50 1 1 I
-X 18dB 14 500 0 200 L 50 50 1 1 I
-X 15dB 15 500 100 200 L 50 50 1 1 I
-X 12dB 16 500 200 200 L 50 50 1 1 I
-X 9dB 17 500 300 200 L 50 50 1 1 I
-X 6dB 18 500 400 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-#End Library
+EESchema Schematic File Version 2
+LIBS:Mixer-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Mathias
+LIBS:Mixer-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 7
+Title "Analog Stereo Audio Mixer "
+Date "2016-11-27"
+Rev "A"
+Comp "Mathias Skouman Völcker"
+Comment1 "Input "
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1850 2100 950  350 
+U 583C28BA
+F0 "Input Block A" 60
+F1 "file583C28B9.sch" 60
+F2 "L_in" I L 1850 2200 60 
+F3 "R_in" I L 1850 2350 60 
+F4 "L_out" O R 2800 2200 60 
+F5 "R_out" O R 2800 2350 60 
+$EndSheet
+$Sheet
+S 4250 2900 1050 400 
+U 583C5D2B
+F0 "Summing Opamp" 60
+F1 "file583C5D2A.sch" 60
+F2 "L_Master_Out" O R 5300 3000 60 
+F3 "R_Master_Out" O R 5300 3150 60 
+$EndSheet
+$Sheet
+S 6500 2900 1050 400 
+U 583CBC77
+F0 "Stereo VU meter" 60
+F1 "file583CBC76.sch" 60
+$EndSheet
+$Sheet
+S 1850 2650 950  350 
+U 584080CD
+F0 "Input Block B" 60
+F1 "file584080CC.sch" 60
+F2 "L_in" I L 1850 2750 60 
+F3 "R_in" I L 1850 2900 60 
+F4 "L_out" O R 2800 2750 60 
+F5 "R_out" O R 2800 2900 60 
+$EndSheet
+$Sheet
+S 1850 3200 950  350 
+U 5840983D
+F0 "Input Block C" 60
+F1 "file5840983C.sch" 60
+F2 "L_in" I L 1850 3300 60 
+F3 "R_in" I L 1850 3450 60 
+F4 "L_out" O R 2800 3300 60 
+F5 "R_out" O R 2800 3450 60 
+$EndSheet
+$Sheet
+S 1850 3750 950  350 
+U 5840AABD
+F0 "Input Block D" 60
+F1 "file5840AABC.sch" 60
+F2 "L_in" I L 1850 3850 60 
+F3 "R_in" I L 1850 4000 60 
+F4 "L_out" O R 2800 3850 60 
+F5 "R_out" O R 2800 4000 60 
+$EndSheet
+$EndSCHEMATC

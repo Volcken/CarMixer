@@ -41,7 +41,7 @@ Date "2016-11-27"
 Rev "A"
 Comp "Mathias Skouman Völcker"
 Comment1 "Input "
-Comment2 ""
+Comment2 "GitHub Version"
 Comment3 ""
 Comment4 ""
 $EndDescr
